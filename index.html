@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS =============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+          <nav class="nav container">
+            <a href="#" class="nav__logo">Hema</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="nav__link">work</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="nav__link">My Info</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+                <!--close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!--toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+          </nav>
+      </header>
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/home-profile.png" alt="image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Hema <br> Pavuluri</h1>
+                    <h3 class="home__profession">Analyst Trainee</h3>
+                </div>
+
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+                    <span class="home__scroll-text">Recent Works</span>
+                </a>
+            </div>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="https://github.com/pavulurihemachowdary/Cleancode" target="_blank" class="work__link">
+                        <h2 class="work__title">Recommendation System</h2>
+                        <p class="work__description">
+                            Recommends code according to the 
+                            programming language selected.
+                        </p>
+                        <img src="assets/img/work-1.jpg" alt="image" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="https://github.com/pavulurihemachowdary/AI_Chatbot" target="_blank" class="work__link">
+                        <h2 class="work__title">AI Virtual chatbot</h2>
+                        <p class="work__description">
+                            Answers the frequently asked questions
+                            that can be customisable.
+                        </p>
+                        <img src="assets/img/work-2.jpg" alt="image" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Portfolio Website</h2>
+                        <p class="work__description">
+                            Website that is build using
+                            html,css,javascript to represent online resume.
+                        </p>
+                        <img src="assets/img/work-3.jpg" alt="image" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+            <div class="info__container container grid">
+                <!--About-->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">About Me</h3>
+                         <p class="about__description">
+                            Passionate about learning AI and Machine Learning.
+                            I have experience in <b>Machine Learning</b> with 
+                            several projects completed.
+                         </p>
+
+                         <a href="assets/Hema_CV.pdf" download="" target="_blank" class="button about__button">Download CV</a>
+                    </div>
+
+                    <img src="assets/img/about-me.png" alt="image" class="about__img">
+                </div>
+                <!--experience-->
+                <div class="experience">
+                    <h3 class="info__title">Experience</h3>
+
+                    <div class="experience__content grid">
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Salesforce(Intern)</h2>
+                            <div>
+                                <h3 class="experience__profession">Salesforce Platform Devloper</h3>
+                                <span class="experience__date">04/2023 - 05/2023</span>
+                                <p class="experience__description">
+                                    Acquired expertise in low-code and no-code tools for developing Lightning Apps and
+                                    dashboards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">AWS(Intern)</h2>
+                            <div>
+                                <h3 class="experience__profession">AWS Academy Cloud Practitioner</h3>
+                                <span class="experience__date">12/2022 - 02/2023</span>
+                                <p class="experience__description">
+                                    Immersed in AWS toolsets, automating cloud services, and managing AWS ecosystem
+                                    tools for optimal efficiency.           
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--skills-->
+                <div class="skills">
+                    <h3 class="info__title">Skills</h3>
+                    
+                    <div class="skills__content grid">
+                        <div class="skills__box">
+                            <img src="assets/img/info-python.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-java.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-html.svg" alt="image" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-css.svg" alt="image" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-javascript.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Javascript</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-sql.svg" alt="image" class="skills__img">
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-numpy.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Numpy</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-data-science.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Data Science</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-git.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Git</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-github.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Github</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-vscode.svg" alt="image" class="skills__img">
+                            <span class="skills__name">VS Code</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="assets/img/info-aws.svg" alt="image" class="skills__img">
+                            <span class="skills__name">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <!--refer the youtube video to add services-->
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" placeholder="Name" required class="contact__input">
+                        <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                    </div>
+                    <textarea name="user_message" placeholder="Type a Message" required class="contact__input contact__area"></textarea>
+                    <button type="submit" class="button contact__button">Send Message</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__social grid">
+                    <a href="https://github.com/pavulurihemachowdary" target="_blank" class="contact__social-link">
+                        <i class="ri-github-line"></i>
+                        <span>Github</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/phema5" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                © Made by Me 💛
+            </span>
+        </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line">
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
