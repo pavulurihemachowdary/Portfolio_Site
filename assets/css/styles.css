@@ -259,7 +259,7 @@ img {
 }
 
 .home__img{
-  width: 220px;
+  width: 250px;
   justify-self: center;
   mask-image: linear-gradient(to bottom,
               hsla(var(--hue), 40%, 16%) 60%,
